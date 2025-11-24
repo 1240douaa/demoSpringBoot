@@ -1,8 +1,13 @@
 package com.example.demo;
 
+
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.demo.Student;
+import com.example.demo.StudentRepository;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import java.util.List;
 
